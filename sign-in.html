@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>FinDash - Responsive Bootstrap 4 Admin Dashboard Template</title>
+      <!-- Favicon -->
+      <link rel="shortcut icon" href="images/favicon.ico" />
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- Typography CSS -->
+      <link rel="stylesheet" href="css/typography.css">
+      <!-- Style CSS -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive CSS -->
+      <link rel="stylesheet" href="css/responsive.css">
+      <script src="js/admin/login.js"></script>
+   </head>
+   <body>
+      <!-- loader Start -->
+      <div id="loading">
+         <div id="loading-center">
+         </div>
+      </div>
+      <!-- loader END -->
+        <!-- Sign in Start -->
+        <section class="sign-in-page">
+          <div id="container-inside">
+              <div class="cube"></div>
+              <div class="cube"></div>
+              <div class="cube"></div>
+              <div class="cube"></div>
+              <div class="cube"></div>
+          </div>
+            <div class="container p-0">
+                <div class="row no-gutters height-self-center">
+                  <div class="col-sm-12 align-self-center bg-primary rounded">
+                    <div class="row m-0">
+                      <div class="col-md-5 bg-white sign-in-page-data">
+                          <div class="sign-in-from text-center">
+                            <img  width="350" height="300" src="images/large-removebg-preview-removebg-preview-removebg-preview.png" class="img-fluid" alt="logo">
+                              <h1 class="mb-0 text-center">تسجيل الدخول</h1>
+                              <p class="text-center text-dark">ادخل اسم المستخدم و كلمة السر لتتمكن من دخول النظام</p>
+                              <form class="mt-4" dir="rtl">
+                                  <div class="form-group">
+                                      <label class="pull-right" for="exampleInputEmail1">اسم المستخدم</label>
+                                      <input id="username" type="text" class="form-control mb-0" id="exampleInputEmail1" placeholder="اسم المستخدم">
+                                  </div>
+                                  <div class="form-group">
+                                      <label class="pull-right" for="exampleInputPassword1">كلمة السر</label>
+                                      <input id="password" type="password" class="form-control mb-0" id="exampleInputPassword1" placeholder="كلمة السر">
+                                  </div>
+                                  <div class="container mt-5">
+                                    <form>
+                                        <div class="row ">
+                                         <div class="col-6">
+                                            <div class="form-check">
+                                                <label class="form-check-label" for="radio1">
+                                                    مدير
+                                                  </label>  
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="radio1" value="option1" checked>
+                                              </div>        
+                                         </div>
+                                         <div class="col-6">
+                                            <div class="form-check">
+                                                <label class="form-check-label" for="radio2">
+                                                    اخصائي اجتماعي
+                                                  </label>  
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="radio2" value="option2">
+                                              </div>        
+                                         </div>
+                                         <div class="col-6">
+                                            <div class="form-check">
+                                                <label class="form-check-label" for="radio3">
+                                                    مدرس
+                                                  </label>  
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="radio3" value="option3">
+                                              </div>        
+                                        </div>
+
+                                        </div>
+                                    </form>
+                                  </div>
+                                  
+                                  <div class="sign-info text-center">
+                                      <button onclick="login();"  type="button" class="btn btn-primary d-block w-100 mb-2">دخول</button>
+                                  </div>
+                              </form>
+                          </div>
+                      </div>
+                      <div class="col-md-7 text-center sign-in-page-image">
+                          <div class="sign-in-detail text-white">
+                              <div class="owl-carousel" data-autoplay="true" data-loop="true" data-nav="false" data-dots="true" data-items="1" data-items-laptop="1" data-items-tab="1" data-items-mobile="1" data-items-mobile-sm="1" data-margin="0">
+                                  <div class="item">
+                                      <img src="images/login/kids.jpg" class="img-fluid mb-4" alt="logo">
+                                      <h4 class="mb-1 text-white">تابع مستوى اطفالك</h4>
+                                      <p>يوفر النظام تقرير شامل عن مستوى الطالب الاكاديمي و نتائج اختباراته</p>
+                                  </div>
+                                  <div class="item">
+                                      <img src="images/login/kids.jpg" class="img-fluid mb-4" alt="logo"> 
+                                      <h4 class="mb-1 text-white">تابع مستوى اطفالك</h4>
+                                      <p>يوفر النظام تقرير شامل عن مستوى الطالب الاكاديمي و نتائج اختباراته</p>
+                                  </div>
+                                  <div class="item">
+                                      <img src="images/login/kids.jpg" class="img-fluid mb-4" alt="logo">
+                                      <h4 class="mb-1 text-white">تابع مستوى اطفالك</h4>
+                                      <p>يوفر النظام تقرير شامل عن مستوى الطالب الاكاديمي و نتائج اختباراته</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+        <!-- Sign in END -->
+       
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <!-- Appear JavaScript -->
+      <script src="js/jquery.appear.js"></script>
+      <!-- Countdown JavaScript -->
+      <script src="js/countdown.min.js"></script>
+      <!-- Counterup JavaScript -->
+      <script src="js/waypoints.min.js"></script>
+      <script src="js/jquery.counterup.min.js"></script>
+      <!-- Wow JavaScript -->
+      <script src="js/wow.min.js"></script>
+      <!-- Apexcharts JavaScript -->
+      <script src="js/apexcharts.js"></script>
+      <!-- lottie JavaScript -->
+      <script src="js/lottie.js"></script>
+      <!-- Slick JavaScript --> 
+      <script src="js/slick.min.js"></script>
+      <!-- Select2 JavaScript -->
+      <script src="js/select2.min.js"></script>
+      <!-- Owl Carousel JavaScript -->
+      <script src="js/owl.carousel.min.js"></script>
+      <!-- Magnific Popup JavaScript -->
+      <script src="js/jquery.magnific-popup.min.js"></script>
+      <!-- Smooth Scrollbar JavaScript -->
+      <script src="js/smooth-scrollbar.js"></script>
+      <!-- Style Customizer -->
+      <script src="js/style-customizer.js"></script>
+      <!-- Chart Custom JavaScript -->
+      <script src="js/chart-custom.js"></script>
+      <!-- Custom JavaScript -->
+      <script src="js/custom.js"></script>
+   </body>
+</html>
